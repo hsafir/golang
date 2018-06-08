@@ -14,5 +14,5 @@ func main(){
 }
 
 func info(w http.ResponseWriter, req *http.Request){
-	w.Write([]byte("test web page!!"))
+	w.Write([]byte("Go Web Page!!"))
 }
