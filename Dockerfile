@@ -8,6 +8,6 @@ RUN ls /go/src/github.com/golang && \
     go env && \
     go get -u github.com/gorilla/mux && \
     go get && \
-    go build 
+    go build -o app
 EXPOSE 8084 
-CMD ["main.go"]
+CMD ["./app"]
